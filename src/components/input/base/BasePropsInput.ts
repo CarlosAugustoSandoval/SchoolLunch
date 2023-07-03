@@ -1,0 +1,53 @@
+import { IBasePropsInput } from 'components/input/base/BaseInput.vue'
+
+const BasePropsInput:IBasePropsInput = {
+  name: '',
+  vid: '',
+  autocomplete: '',
+  mask: '', // ###-## date datetime time fulltime phone card
+  fillMask: '',
+  unmaskedValue: true,
+  error: false,
+  rules: null,
+  lazyRules: false,
+  loading: false,
+  clearable: true,
+  autofocus: false,
+  errorMessage: '',
+  noErrorIcon: true,
+  label: '',
+  placeholder: '',
+  stackLabel: false,
+  hint: '',
+  hideHint: false,
+  prefix: '',
+  suffix: '',
+  labelSlot: false,
+  bottomSlots: false,
+  counter: false,
+  shadowText: '',
+  autogrow: false,
+  type: 'text', // text, password, textarea, email, search, tel, file, number, url, time, date
+  modelValue: null,
+  debounce: 0,
+  maxlength: '',
+  disable: false,
+  readonly: false,
+  labelColor: '',
+  color: '',
+  bgColor: '',
+  dark: false,
+  filled: false,
+  outlined: true,
+  borderless: false,
+  standout: '',
+  hideBottomSpace: false,
+  rounded: false,
+  square: false,
+  dense: true,
+  itemAligned: false,
+  inputClass: '',
+  inputStyle: ''
+}
+
+export default BasePropsInput
